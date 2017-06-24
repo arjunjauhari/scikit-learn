@@ -22,6 +22,7 @@ from .data import maxabs_scale
 from .data import minmax_scale
 from .data import quantile_transform
 from .data import OneHotEncoder
+from .data import UnaryEncoder
 
 from .data import PolynomialFeatures
 
@@ -58,4 +59,5 @@ __all__ = [
     'minmax_scale',
     'label_binarize',
     'quantile_transform',
+    'UnaryEncoder'
 ]
